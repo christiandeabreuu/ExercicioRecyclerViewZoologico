@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalCadastradoFragment"
+    android:layout_margin="@dimen/margin_geral">
+
+
+    <ImageView
+        android:id="@+id/ivDetalhe"
+        android:layout_width="@dimen/largura_img_detalhe"
+        android:layout_height="@dimen/altura_img_detalhe"
+        android:src="@drawable/animal"
+        android:layout_margin="@dimen/margin_geral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTipoAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animal"
+        android:textSize="@dimen/tamanho_texto_detalhe"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/margin_geral"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDetalhe"
+        app:layout_constraintStart_toEndOf="@+id/ivDetalhe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDetalheDescricaoAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="@string/texto_exemplo"
+        android:textSize="@dimen/text_tamanho_detalhe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetalhe" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

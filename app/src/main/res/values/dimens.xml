@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_geral">16dp</dimen>
+    <dimen name="largura_img_detalhe">86dp</dimen>
+    <dimen name="altura_img_detalhe">86dp</dimen>
+    <dimen name="tamanho_texto_detalhe">18sp</dimen>
+    <dimen name="texto_card">14sp</dimen>
+    <dimen name="largura_img_card">50dp</dimen>
+    <dimen name="altura_img_card">50dp</dimen>
+    <dimen name="text_tamanho_detalhe">12sp</dimen>
+
+</resources>

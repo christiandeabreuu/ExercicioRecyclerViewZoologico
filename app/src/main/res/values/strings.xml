@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zoologico</string>
+    <string name="texto_apresentacao_main">Adicione aqui o animal que vc quer usar no app e sua descrição.Use a criatividade</string>
+    <string name="texto_botao_adicionar">ADICIONAR</string>
+    <string name="et_descricao">Descrição do Animal</string>
+    <string name="et_animal">Nome do Animal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto_exemplo">dakfbfidfbdf dfsadfasd dfsdfasd fds faf df adsf sadfasd fds sdfsd fdsf sdf sdf sadfds fsdafadsf</string>
+</resources>
